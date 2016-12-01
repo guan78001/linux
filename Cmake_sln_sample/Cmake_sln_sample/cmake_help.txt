@@ -1,0 +1,10 @@
+cmake -G "Visual Studio 12 2013"
+
+cd build_vs
+cmake -G "Visual Studio 12 2013" ../
+
+codeblock on windows:
+run VS2013 command prompt
+mkdir build_cb
+cd build_cb
+cmake -G "CodeBlocks - NMake Makefiles" ../

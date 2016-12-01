@@ -1,0 +1,9 @@
+cmake -G "Visual Studio 12 2013" ../
+
+
+vs2013ÃüÁîĞĞ
+mkdir build_cb
+cd build_cb
+cmake -G "CodeBlocks - NMake Makefiles" ../
+
+ cmake [options] <path-to-existing-build>

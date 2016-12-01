@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1480595906 source:d:\git_clone\linux\linux\code_block_slns\hellocodeblocks\main.cpp
+	<iostream>
+	"Test.h"
+
+1480595896 source:d:\git_clone\linux\linux\code_block_slns\hellocodeblocks\src\test.cpp
+	"Test.h"
+	<stdio.h>
+
+1480595747 d:\git_clone\linux\linux\code_block_slns\hellocodeblocks\include\test.h
+
