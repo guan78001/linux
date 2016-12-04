@@ -1,0 +1,4 @@
+add_executable(Tutorial tutorial.cxx)
+target_link_libraries(Tutorial PRIVATE AddDLL AddLib)
+#target_link_libraries(Tutorial PRIVATE AddDLL)
+

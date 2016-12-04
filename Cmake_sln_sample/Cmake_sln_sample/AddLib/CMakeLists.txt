@@ -1,1 +1,1 @@
-add_library(AddLib AddLib.h AddLib.cpp)
+add_library(AddLib STATIC AddLib.h AddLib.cpp)

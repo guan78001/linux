@@ -12,6 +12,7 @@ void AddDLL::Print() {
 }
 
 int AddDLL::Add(int a, int b) {
-  AddLib obj;
-  return obj.Add(1, 2);
+  //AddLib obj;
+  //return obj.Add(1, 2);
+  return a+b;
 }

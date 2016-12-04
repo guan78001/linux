@@ -1,15 +1,13 @@
 cmake_minimum_required(VERSION 2.8)
-if(CMAKE_VERSION VERSION_GREATER "2.8.11")
-  cmake_policy(SET CMP0022 OLD)
-endif()
+
+project(TestDLL)
+message(STATUS "bin_path: ${PROJECT_BINARY_DIR}/bin")
 set(EXECUTABLE_OUTPUT_PATH  "${PROJECT_BINARY_DIR}/bin")
 set(LIBRARY_OUTPUT_PATH     "${PROJECT_BINARY_DIR}/bin")
 
-#project (Tutorial)
-add_executable(Tutorial tutorial.cxx)
-#target_link_libraries(Tutorial PRIVATE AddDLL AddLib)
-target_link_libraries(Tutorial PRIVATE AddDLL)
-
-add_subdirectory(AddDLL)
 add_subdirectory(AddLib)
 add_subdirectory(AddLib2)
+add_subdirectory(AddDLL)
+add_subdirectory(console)
+
+
