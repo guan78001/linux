@@ -2,6 +2,6 @@
 
 int main()
 {
-	printf("Hello.\n");
+	printf("Hello Linux.\n");
 	return 0;
 }
